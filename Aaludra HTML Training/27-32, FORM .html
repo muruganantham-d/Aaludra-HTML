@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+<h1>Form Design</h1>
+      <form action="" target="_blank" autocomplete="on" >
+    <div>
+         
+        <div>
+         <!-- Name -->   
+        <label for="name">UserName:</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your name" />
+        <small></small>
+        </div>
+        
+       <div>
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your email" />
+        <small></small>
+        </div>
+
+        <div>
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="password" />
+        <small></small>
+        </div>
+
+        <div>
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" >  
+         </div>
+
+        <div>
+        <!-- Gender -->
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender" value="male">male ?
+        <input type="radio" name="gender" id="gender" value="gender">female ? 
+        </div>
+
+        <div>
+        <!-- select -->
+        <label for="Qualification">Select your Qualification:</label>
+        <select name="Qualification" id="Qualification">
+            <option value="">select</option>
+            <option value="BE-Mechanical Engineering" selected>BE-Mechanical Engineering</option>
+            <option value="Bsc-Computer Sice">Bsc-Computer Sice</option>
+            <option value="IT-Information technology">IT-Information technology</option>
+        </select>
+       </div>
+
+        <div>
+         <!-- date Restriction -->
+        <label for="date">Select Oppoinment Date</label><br>
+        <input type="date" min="2022-09-10" max="2022-09-12" name="date" placeholder="date" id="date">
+        <p id="head3"></p>
+        </div>
+
+        <div>
+            <!-- Check Box / slect tag-->
+           <label for="agree">agree the terms and condition:</label>
+             <input type="checkbox" id="agree" value="agree">
+            
+        </div>
+
+       <div>
+        <!-- multiple check box / select tag-->
+        <h5>Hoppes</h5>
+        <label for="hoppes"></label>
+           <select name="hoppes" id="hoppes" multiple>
+               <option value="Cricket">Cricket</option>
+               <option value="Foodbal">Foodbal</option>
+               <option value="Chess">Chess</option>
+               <option value="Basketball">Basketball</option>
+               <option value="kabadi">kabadi</option>
+           </select>             
+       </div>
+       <!-- multible dropdown -->
+
+        
+       <div>
+         <button type="submit">Submit</button>
+       </div>
+       
+      
+</div>
+
+
+
+
+    </form>
+</body>
+</html>
